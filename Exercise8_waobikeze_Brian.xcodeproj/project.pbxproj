@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3046C52AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3046C42AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift */; };
+		3C3046C72AFE384500E772CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3046C62AFE384500E772CA /* ContentView.swift */; };
+		3C3046C92AFE384800E772CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3046C82AFE384800E772CA /* Assets.xcassets */; };
+		3C3046CC2AFE384800E772CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3046CB2AFE384800E772CA /* Preview Assets.xcassets */; };
+		3C3046D22AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C3046D12AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C3046D72AFE384800E772CA /* Exercise8_waobikeze_BrianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3046D62AFE384800E772CA /* Exercise8_waobikeze_BrianApp.swift */; };
+		3C3046D92AFE384800E772CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3046D82AFE384800E772CA /* ContentView.swift */; };
+		3C3046DB2AFE384A00E772CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3046DA2AFE384A00E772CA /* Assets.xcassets */; };
+		3C3046DE2AFE384A00E772CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3046DD2AFE384A00E772CA /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3046D32AFE384800E772CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3046B92AFE384400E772CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3046D02AFE384800E772CA;
+			remoteInfo = "Exercise8_waobikeze_Brian Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C3046E42AFE384A00E772CA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C3046D22AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C3046C12AFE384500E772CA /* Exercise8_waobikeze_Brian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise8_waobikeze_Brian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3046C42AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_waobikeze_BrianApp.swift; sourceTree = "<group>"; };
+		3C3046C62AFE384500E772CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C3046C82AFE384800E772CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3046CB2AFE384800E772CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C3046D12AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise8_waobikeze_Brian Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3046D62AFE384800E772CA /* Exercise8_waobikeze_BrianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_waobikeze_BrianApp.swift; sourceTree = "<group>"; };
+		3C3046D82AFE384800E772CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C3046DA2AFE384A00E772CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3046DD2AFE384A00E772CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C3046BE2AFE384500E772CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3046CE2AFE384800E772CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3046B82AFE384400E772CA = {
+			isa = PBXGroup;
+			children = (
+				3C3046C32AFE384500E772CA /* Exercise8_waobikeze_Brian */,
+				3C3046D52AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App */,
+				3C3046C22AFE384500E772CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3046C22AFE384500E772CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3046C12AFE384500E772CA /* Exercise8_waobikeze_Brian.app */,
+				3C3046D12AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3046C32AFE384500E772CA /* Exercise8_waobikeze_Brian */ = {
+			isa = PBXGroup;
+			children = (
+				3C3046C42AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift */,
+				3C3046C62AFE384500E772CA /* ContentView.swift */,
+				3C3046C82AFE384800E772CA /* Assets.xcassets */,
+				3C3046CA2AFE384800E772CA /* Preview Content */,
+			);
+			path = Exercise8_waobikeze_Brian;
+			sourceTree = "<group>";
+		};
+		3C3046CA2AFE384800E772CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C3046CB2AFE384800E772CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C3046D52AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3C3046D62AFE384800E772CA /* Exercise8_waobikeze_BrianApp.swift */,
+				3C3046D82AFE384800E772CA /* ContentView.swift */,
+				3C3046DA2AFE384A00E772CA /* Assets.xcassets */,
+				3C3046DC2AFE384A00E772CA /* Preview Content */,
+			);
+			path = "Exercise8_waobikeze_Brian Watch App";
+			sourceTree = "<group>";
+		};
+		3C3046DC2AFE384A00E772CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C3046DD2AFE384A00E772CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C3046C02AFE384500E772CA /* Exercise8_waobikeze_Brian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3046E52AFE384A00E772CA /* Build configuration list for PBXNativeTarget "Exercise8_waobikeze_Brian" */;
+			buildPhases = (
+				3C3046BD2AFE384500E772CA /* Sources */,
+				3C3046BE2AFE384500E772CA /* Frameworks */,
+				3C3046BF2AFE384500E772CA /* Resources */,
+				3C3046E42AFE384A00E772CA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3046D42AFE384800E772CA /* PBXTargetDependency */,
+			);
+			name = Exercise8_waobikeze_Brian;
+			productName = Exercise8_waobikeze_Brian;
+			productReference = 3C3046C12AFE384500E772CA /* Exercise8_waobikeze_Brian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C3046D02AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3046E12AFE384A00E772CA /* Build configuration list for PBXNativeTarget "Exercise8_waobikeze_Brian Watch App" */;
+			buildPhases = (
+				3C3046CD2AFE384800E772CA /* Sources */,
+				3C3046CE2AFE384800E772CA /* Frameworks */,
+				3C3046CF2AFE384800E772CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise8_waobikeze_Brian Watch App";
+			productName = "Exercise8_waobikeze_Brian Watch App";
+			productReference = 3C3046D12AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C3046B92AFE384400E772CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C3046C02AFE384500E772CA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C3046D02AFE384800E772CA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C3046BC2AFE384400E772CA /* Build configuration list for PBXProject "Exercise8_waobikeze_Brian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C3046B82AFE384400E772CA;
+			productRefGroup = 3C3046C22AFE384500E772CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C3046C02AFE384500E772CA /* Exercise8_waobikeze_Brian */,
+				3C3046D02AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3046BF2AFE384500E772CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3046CC2AFE384800E772CA /* Preview Assets.xcassets in Resources */,
+				3C3046C92AFE384800E772CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3046CF2AFE384800E772CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3046DE2AFE384A00E772CA /* Preview Assets.xcassets in Resources */,
+				3C3046DB2AFE384A00E772CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C3046BD2AFE384500E772CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3046C72AFE384500E772CA /* ContentView.swift in Sources */,
+				3C3046C52AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3046CD2AFE384800E772CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3046D92AFE384800E772CA /* ContentView.swift in Sources */,
+				3C3046D72AFE384800E772CA /* Exercise8_waobikeze_BrianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3046D42AFE384800E772CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3046D02AFE384800E772CA /* Exercise8_waobikeze_Brian Watch App */;
+			targetProxy = 3C3046D32AFE384800E772CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C3046DF2AFE384A00E772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C3046E02AFE384A00E772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C3046E22AFE384A00E772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise8_waobikeze_Brian Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise8_waobikeze_Brian;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "cpp.Exercise8-waobikeze-Brian";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cpp.Exercise8-waobikeze-Brian.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		3C3046E32AFE384A00E772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise8_waobikeze_Brian Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise8_waobikeze_Brian;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "cpp.Exercise8-waobikeze-Brian";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cpp.Exercise8-waobikeze-Brian.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		3C3046E62AFE384A00E772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise8_waobikeze_Brian/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise8_waobikeze_Brian;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cpp.Exercise8-waobikeze-Brian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C3046E72AFE384A00E772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise8_waobikeze_Brian/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise8_waobikeze_Brian;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cpp.Exercise8-waobikeze-Brian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C3046BC2AFE384400E772CA /* Build configuration list for PBXProject "Exercise8_waobikeze_Brian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3046DF2AFE384A00E772CA /* Debug */,
+				3C3046E02AFE384A00E772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3046E12AFE384A00E772CA /* Build configuration list for PBXNativeTarget "Exercise8_waobikeze_Brian Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3046E22AFE384A00E772CA /* Debug */,
+				3C3046E32AFE384A00E772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3046E52AFE384A00E772CA /* Build configuration list for PBXNativeTarget "Exercise8_waobikeze_Brian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3046E62AFE384A00E772CA /* Debug */,
+				3C3046E72AFE384A00E772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C3046B92AFE384400E772CA /* Project object */;
+}
