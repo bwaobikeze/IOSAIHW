@@ -19,15 +19,15 @@ struct ObjectIdentivicationView: View {
             Color.gray
             VStack {
                 HStack{
-                    Text("P").font(Font.system(size: 36))
-                    Text("a").offset(x:-6,y:-5).font(Font.system(size: 36))
-                }.offset(x:150)
+                    Text("P").font(Font.system(size: 36)).bold().foregroundColor(.red)
+                    Text("a").baselineOffset(20.0) .font(Font.system(size: 20)).offset(x:-11).bold().foregroundColor(.red)
+                }.offset(x:175, y: 30)
                 Spacer()
                 Image(classificationImageName)
                 .resizable()
                 .aspectRatio(350/350,contentMode: .fit)
                 .frame(width: 350, height: 350)
-                .border(Color.red)
+                .border(Color.red, width: 6)
                     .onAppear{
                         classifier.detectObj(uiImage: UIImage(named: classificationImageName)!)
                         syncService.sendMessage(classificationImageName, "\(analyzeSentiment(text: classifier.imageClass!))", { error in })
@@ -47,13 +47,13 @@ struct ObjectIdentivicationView: View {
                                                        .bold()
                                                        .lineLimit(7)
                                            }
-                                           .foregroundStyle(.white)
+                                           .foregroundStyle(.red)
                                            } else {
                                                HStack{
                                                    Text("Unable to identify objects")
                                                        .font(.system(size: 26))
                                                }
-                                               .foregroundStyle(.white)
+                                               .foregroundStyle(.red)
                                            }
                 }
                 .font(.subheadline)

@@ -22,7 +22,6 @@
 		3C3046F12B0048AC00E772CA /* imageclassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3046F02B0048AC00E772CA /* imageclassifier.swift */; };
 		3C4841842B0211DB00A1FEE5 /* Sysnservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4841832B0211DB00A1FEE5 /* Sysnservice.swift */; };
 		3C4841852B0211DB00A1FEE5 /* Sysnservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4841832B0211DB00A1FEE5 /* Sysnservice.swift */; };
-		3C48418B2B02A00300A1FEE5 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C48418A2B02A00300A1FEE5 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		3C3046EE2B00475900E772CA /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		3C3046F02B0048AC00E772CA /* imageclassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageclassifier.swift; sourceTree = "<group>"; };
 		3C4841832B0211DB00A1FEE5 /* Sysnservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sysnservice.swift; sourceTree = "<group>"; };
-		3C48418A2B02A00300A1FEE5 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 		3C3046C32AFE384500E772CA /* Exercise8_waobikeze_Brian */ = {
 			isa = PBXGroup;
 			children = (
-				3C48418A2B02A00300A1FEE5 /* Resnet50.mlmodel */,
 				3C3046F02B0048AC00E772CA /* imageclassifier.swift */,
 				3C3046EE2B00475900E772CA /* Classifier.swift */,
 				3C3046EC2AFE3FCD00E772CA /* TextidentificationView.swift */,
@@ -264,7 +261,6 @@
 				3C3046ED2AFE3FCD00E772CA /* TextidentificationView.swift in Sources */,
 				3C3046C72AFE384500E772CA /* ContentView.swift in Sources */,
 				3C3046F12B0048AC00E772CA /* imageclassifier.swift in Sources */,
-				3C48418B2B02A00300A1FEE5 /* Resnet50.mlmodel in Sources */,
 				3C3046C52AFE384500E772CA /* Exercise8_waobikeze_BrianApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

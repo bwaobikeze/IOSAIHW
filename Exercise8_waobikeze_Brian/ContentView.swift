@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
     var body: some View {
         TabView{
             ObjectIdentivicationView(classifier: ImageClassifier())
@@ -20,7 +21,7 @@ struct ContentView: View {
                     Image(systemName:"doc.text")
                     Text("Text identification")
                 }.toolbarBackground(.visible, for: .tabBar)
-        }
+        }.accentColor(selectedTab == 0 ? .red : .black).tabViewStyle(.automatic)
 
  
     }

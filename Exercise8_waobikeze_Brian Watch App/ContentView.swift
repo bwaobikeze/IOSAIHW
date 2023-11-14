@@ -17,8 +17,8 @@ struct ContentView: View {
             Color.gray
             VStack {
                 HStack{
-                    Text("P").font(Font.system(size: 36))
-                    Text("a").offset(x:-6,y:-4).font(Font.system(size: 36))
+                    Text("P").font(Font.system(size: 36)).bold().foregroundColor(.red)
+                    Text("a").baselineOffset(20.0) .font(Font.system(size: 20)).offset(x:-6).bold().foregroundColor(.red)
                 }.offset(x:70)
                 Text(emojiArray[emojiIndex ]).font(Font.system(size: 70))
                     .onAppear {syncService.dataReceived = Receive }
